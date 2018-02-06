@@ -13,6 +13,8 @@ def run_guessing_game
         break 
       when random_number
         puts "You guessed the correct number!"
+      else 
+        puts 
       end
     end
 end
