@@ -9,9 +9,10 @@ def run_guessing_game
     
     case input 
       when "exit"
+        puts "Goodbye!"
         break 
       when random_number
-        "You guessed the correct number!"
-  
-  
+        puts "You guessed the correct number!"
+      end
+    end
 end
